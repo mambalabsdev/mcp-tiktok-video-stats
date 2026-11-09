@@ -1,0 +1,51 @@
+{
+  "name": "@mambalabsdev/mcp-tiktok-video-stats",
+  "version": "1.0.0",
+  "description": "MCP server for TikTok Video Stats. Plays, likes, comments, shares, and saves for TikTok posts by URL. Runs on Apify. Clay-ready output.",
+  "type": "module",
+  "bin": {
+    "mcp-tiktok-video-stats": "./build/index.js"
+  },
+  "files": [
+    "build",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md"
+  ],
+  "scripts": {
+    "build": "tsc && chmod +x build/index.js",
+    "test": "npm run build && node --test test/*.test.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok",
+    "tiktok-scraper",
+    "tiktok-video",
+    "social-media",
+    "influencer",
+    "video-stats",
+    "apify",
+    "clay"
+  ],
+  "author": "Mamba Labs <labs@mambamindsetgrowth.com>",
+  "license": "MIT",
+  "homepage": "https://apify.com/mambalabs/tiktok-video-stats",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mambalabsdev/mcp-tiktok-video-stats"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/node": "^26.2.0",
+    "typescript": "5.9.3"
+  },
+  "mcpName": "com.mambabuilt/mcp-tiktok-video-stats"
+}

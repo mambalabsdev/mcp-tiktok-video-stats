@@ -1,0 +1,33 @@
+{
+  "name": "mcp-tiktok-video-stats",
+  "displayName": "TikTok Video Stats",
+  "version": "1.0.0",
+  "description": "MCP server for TikTok Video Stats. Plays, likes, comments, shares, and saves for TikTok posts by URL. Runs on Apify. Clay-ready output.",
+  "author": {
+    "name": "Mamba Labs",
+    "email": "labs@mambamindsetgrowth.com"
+  },
+  "homepage": "https://mambabuilt.com",
+  "repository": "https://github.com/mambalabsdev/mcp-tiktok-video-stats",
+  "license": "MIT",
+  "category": "productivity",
+  "tags": [
+    "tiktok",
+    "tiktok-scraper",
+    "tiktok-video",
+    "social-media",
+    "influencer",
+    "video-stats"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "tiktok",
+    "tiktok-scraper",
+    "tiktok-video",
+    "social-media",
+    "influencer",
+    "video-stats"
+  ],
+  "mcpServers": ".mcp.json"
+}

@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "mamba-tiktok-video-stats": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "@mambalabsdev/mcp-tiktok-video-stats"
+      ],
+      "env": {
+        "APIFY_TOKEN": "your-apify-token"
+      }
+    }
+  }
+}
