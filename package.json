@@ -1,6 +1,6 @@
 {
   "name": "@mambalabsdev/mcp-tiktok-video-stats",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "MCP server for TikTok Video Stats. Plays, likes, comments, shares, and saves for TikTok posts by URL. Runs on Apify. Clay-ready output.",
   "type": "module",
   "bin": {
